@@ -173,7 +173,7 @@ KURRY STORY/
 ### Update Contact Information
 Edit the Contact section in `index.html`:
 ```html
-<a href="tel:+919876543210">+91 98765 43210</a>
+<a href="tel:+919830028093">+919830028093</a>
 <p><a href="mailto:info@kurrystory.com">info@kurrystory.com</a></p>
 ```
 
