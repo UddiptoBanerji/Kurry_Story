@@ -1,0 +1,42 @@
+{
+  "restaurant": {
+    "name": "Kurry Story",
+    "tagline": "Authentic Indian Cuisine",
+    "phone": "+91 9876543210",
+    "email": "info@kurrystory.com",
+    "address": "Kolkata, India"
+  },
+  "menu": [
+    {
+      "id": 1,
+      "name": "Paneer Tikka",
+      "category": "Indian",
+      "price": "₹220",
+      "description": "Grilled cottage cheese with Indian spices",
+      "icon": "🔥"
+    },
+    {
+      "id": 2,
+      "name": "Chicken Fried Rice",
+      "category": "Chinese",
+      "price": "₹250",
+      "description": "Rice tossed with chicken and sauces",
+      "icon": "🍚"
+    },
+    {
+      "id": 3,
+      "name": "White Sauce Pasta",
+      "category": "Continental",
+      "price": "₹280",
+      "description": "Creamy pasta with herbs",
+      "icon": "🍝"
+    }
+  ],
+  "offers": [
+    {
+      "title": "Weekend Buffet",
+      "description": "Unlimited buffet every Sunday",
+      "price": "₹499"
+    }
+  ]
+}

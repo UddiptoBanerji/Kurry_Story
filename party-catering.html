@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Party Catering - Kurry Story</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-wrapper">
+                <div class="logo">
+                    <h1>Kurry Story</h1>
+                </div>
+                <button class="hamburger" id="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <ul class="nav-menu" id="navMenu">
+                    <li><a href="index.html" class="nav-link">Home</a></li>
+                    <li><a href="index.html#about" class="nav-link">About Us</a></li>
+                    <li><a href="menu.html" class="nav-link">Menu</a></li>
+                    <li><a href="party-catering.html" class="nav-link active">Party Catering</a></li>
+                    <li><a href="offers.html" class="nav-link">Special Offers</a></li>
+                    <li><a href="index.html#contact" class="nav-link">Contact Us</a></li>
+                    <li><a href="tel:+919876543210" class="nav-link cta">Order Now</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Banner -->
+    <header class="page-banner">
+        <div class="banner-content">
+            <h1>Party & Catering Services</h1>
+            <p>Make Your Special Moments Memorable with Kurry Story</p>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <div class="container">
+        <div class="page-wrapper">
+            <!-- Sidebar Navigation -->
+            <aside class="sidebar">
+                <div class="sidebar-section">
+                    <h3>Services</h3>
+                    <ul class="sidebar-menu">
+                        <li><a href="#birthday" class="sidebar-link active" data-filter="birthday">Birthday Parties</a></li>
+                        <li><a href="#wedding" class="sidebar-link" data-filter="wedding">Wedding Catering</a></li>
+                        <li><a href="#corporate" class="sidebar-link" data-filter="corporate">Corporate Events</a></li>
+                        <li><a href="#anniversary" class="sidebar-link" data-filter="anniversary">Anniversary Celebrations</a></li>
+                        <li><a href="#festival" class="sidebar-link" data-filter="festival">Festival Celebrations</a></li>
+                        <li><a href="#custom" class="sidebar-link" data-filter="custom">Custom Packages</a></li>
+                    </ul>
+                </div>
+
+                <div class="sidebar-section">
+                    <h3>Party Size</h3>
+                    <ul class="sidebar-menu">
+                        <li><a href="#" class="sidebar-link size-filter" data-size="small">5-25 Guests</a></li>
+                        <li><a href="#" class="sidebar-link size-filter" data-size="medium">25-50 Guests</a></li>
+                        <li><a href="#" class="sidebar-link size-filter" data-size="large">50-100 Guests</a></li>
+                        <li><a href="#" class="sidebar-link size-filter" data-size="xlarge">100+ Guests</a></li>
+                    </ul>
+                </div>
+
+                <div class="sidebar-section">
+                    <h3>Quick Contact</h3>
+                    <div class="contact-box">
+                        <p><i class="fas fa-phone"></i> <a href="tel:+919876543210">+91 98765 43210</a></p>
+                        <p><i class="fas fa-envelope"></i> <a href="mailto:catering@kurrystory.com">catering@kurrystory.com</a></p>
+                        <a href="tel:+919876543210" class="btn btn-primary btn-small">Call Now</a>
+                    </div>
+                </div>
+            </aside>
+
+            <!-- Main Content Area -->
+            <main class="main-content">
+                <!-- Gallery Section -->
+                <section class="catering-gallery">
+                    <h2>Our Catering Packages</h2>
+                    <div class="gallery-grid" id="cateringGallery">
+                        <!-- Gallery items will be loaded by jQuery -->
+                    </div>
+                </section>
+
+                <!-- Package Details -->
+                <section class="catering-packages" id="packagesSection">
+                    <h2>Featured Packages</h2>
+                    <div class="packages-grid" id="packagesGrid">
+                        <!-- Packages will be loaded by jQuery -->
+                    </div>
+                </section>
+
+                <!-- Why Choose Us -->
+                <section class="why-choose">
+                    <h2>Why Choose Kurry Story for Your Party?</h2>
+                    <div class="features-grid">
+                        <div class="feature-box">
+                            <i class="fas fa-utensils"></i>
+                            <h4>Authentic Recipes</h4>
+                            <p>Traditional Indian dishes prepared with premium ingredients</p>
+                        </div>
+                        <div class="feature-box">
+                            <i class="fas fa-users"></i>
+                            <h4>Professional Service</h4>
+                            <p>Expert catering staff for seamless service</p>
+                        </div>
+                        <div class="feature-box">
+                            <i class="fas fa-leaf"></i>
+                            <h4>Fresh Ingredients</h4>
+                            <p>Only fresh, quality ingredients used daily</p>
+                        </div>
+                        <div class="feature-box">
+                            <i class="fas fa-chart-line"></i>
+                            <h4>Custom Menus</h4>
+                            <p>Customizable menus to suit your preferences</p>
+                        </div>
+                        <div class="feature-box">
+                            <i class="fas fa-truck"></i>
+                            <h4>On-Time Delivery</h4>
+                            <p>Guaranteed timely delivery and setup</p>
+                        </div>
+                        <div class="feature-box">
+                            <i class="fas fa-star"></i>
+                            <h4>Competitive Pricing</h4>
+                            <p>Best quality at affordable prices</p>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Testimonials -->
+                <section class="party-testimonials">
+                    <h2>Client Testimonials</h2>
+                    <div class="testimonials-grid" id="partyTestimonials">
+                        <!-- Testimonials will be loaded by jQuery -->
+                    </div>
+                </section>
+
+                <!-- CTA Section -->
+                <section class="cta-section">
+                    <h2>Ready to Plan Your Perfect Party?</h2>
+                    <p>Contact us today to discuss your catering needs and get a custom quote</p>
+                    <div class="cta-buttons">
+                        <a href="tel:+919876543210" class="btn btn-primary">Call Now</a>
+                        <a href="#contactForm" class="btn btn-secondary">Send Inquiry</a>
+                    </div>
+                </section>
+            </main>
+        </div>
+    </div>
+
+    <!-- Contact Form Section -->
+    <section class="contact-inquiry" id="contactForm">
+        <div class="container">
+            <h2>Get Your Catering Quote</h2>
+            <form class="inquiry-form" id="cateringForm">
+                <div class="form-row">
+                    <input type="text" placeholder="Your Name" required>
+                    <input type="email" placeholder="Your Email" required>
+                </div>
+                <div class="form-row">
+                    <input type="tel" placeholder="Your Phone" required>
+                    <input type="text" placeholder="Event Date" required>
+                </div>
+                <div class="form-row">
+                    <select required>
+                        <option value="">Select Party Type</option>
+                        <option value="birthday">Birthday Party</option>
+                        <option value="wedding">Wedding</option>
+                        <option value="corporate">Corporate Event</option>
+                        <option value="anniversary">Anniversary</option>
+                        <option value="festival">Festival Celebration</option>
+                        <option value="other">Other</option>
+                    </select>
+                    <select required>
+                        <option value="">Expected Guests</option>
+                        <option value="5-25">5-25 Guests</option>
+                        <option value="25-50">25-50 Guests</option>
+                        <option value="50-100">50-100 Guests</option>
+                        <option value="100+">100+ Guests</option>
+                    </select>
+                </div>
+                <textarea placeholder="Tell us about your event and preferences" rows="5" required></textarea>
+                <button type="submit" class="btn btn-primary">Get Quote</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>Kurry Story</h4>
+                    <p>Authentic Indian Cuisine Catering Services</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="menu.html">Menu</a></li>
+                        <li><a href="offers.html">Offers</a></li>
+                        <li><a href="index.html#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Catering Services</h4>
+                    <ul>
+                        <li><a href="#birthday">Birthday Parties</a></li>
+                        <li><a href="#wedding">Wedding Catering</a></li>
+                        <li><a href="#corporate">Corporate Events</a></li>
+                        <li><a href="#custom">Custom Packages</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Kurry Story. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="js/party-catering.js"></script>
+</body>
+</html>

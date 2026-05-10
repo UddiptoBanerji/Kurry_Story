@@ -1,0 +1,24 @@
+{
+  "partyCatering": {
+    "title": "Party & Catering Services",
+    "subtitle": "Celebrate your special moments with delicious food from Kurry Story",
+    "services": [
+      {
+        "name": "Birthday Catering",
+        "description": "Custom food packages for birthday parties."
+      },
+      {
+        "name": "Wedding Catering",
+        "description": "Premium wedding and reception catering."
+      },
+      {
+        "name": "Corporate Catering",
+        "description": "Professional catering for corporate events."
+      }
+    ],
+    "contact": {
+      "phone": "+91 9876543210",
+      "email": "info@kurrystory.com"
+    }
+  }
+}

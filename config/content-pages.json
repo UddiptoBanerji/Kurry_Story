@@ -1,0 +1,27 @@
+{
+  "menuPage": {
+    "title": "Our Delicious Menu",
+    "subtitle": "Freshly prepared dishes from multiple cuisines",
+    "categories": [
+      "Indian",
+      "Chinese",
+      "Continental"
+    ]
+  },
+  "offersPage": {
+    "title": "Special Offers",
+    "subtitle": "Best deals and discounts available now",
+    "offers": [
+      {
+        "title": "Weekend Buffet",
+        "description": "Unlimited buffet every Sunday",
+        "price": "₹499"
+      },
+      {
+        "title": "Family Combo",
+        "description": "Special combo meal for 4 persons",
+        "price": "₹999"
+      }
+    ]
+  }
+}
